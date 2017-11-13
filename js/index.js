@@ -1,3 +1,7 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(navigator.notification);
+}
 $(document).on("pagecreate","#pageOne",function(){
   var ranNum;
   $("#btn").on("tap",function(){
